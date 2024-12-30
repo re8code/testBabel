@@ -3,7 +3,9 @@
         "target": "ES5",
         "module": "ESNext",
         "strict": true,
-        "jsx": "react"
+        "jsx": "react",
+        "esModuleInterop": true,
+        "outDir": "./dist"
     },
     "include": ["src/**/*.ts", "src/**/*.tsx"],
     "exclude": ["node_modules"]
